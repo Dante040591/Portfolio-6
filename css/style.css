@@ -8705,12 +8705,15 @@ body {
     background-color: #ff931e;
     border-radius: 50px;
     padding: 17px 40px;
+		box-shadow: 0px 5px 0px 0px rgba(61,61,61,0.58);
     -webkit-transition: background-color .5s;
-    transition: background-color .5s;
+    transition: background-color, box-shadow .5s;
     display: inline-block; }
     .b-service .b-service-wrap .b-service-buy:hover {
       text-decoration: none;
-      background-color: #ea8619; }
+      background-color: #ea8619;
+			box-shadow: none;
+			}
 
 .b-practice {
   margin-bottom: 85px; }
@@ -8804,11 +8807,15 @@ body {
     border-radius: 50px;
     padding: 17px 40px;
     -webkit-transition: background-color .5s;
-    transition: background-color .5s;
+    transition: background-color, -webkit-box-shadow: ;
+    -moz-box-shadow: ;
+    box-shadow: ; .5s;
+		box-shadow: 0px 5px 0px 0px rgba(61,61,61,0.58);
     display: inline-block; }
     .b-economy-buy:hover {
       text-decoration: none;
       background-color: #ea8619;
+			box-shadow: none;
       color: #ffffff; }
 
 .b-stat {
@@ -8877,7 +8884,7 @@ body {
     background-color: #fff;
     padding: 33px;
     -webkit-transition: all .5s ease;
-    transition: all .5s ease;
+    transition: background-color, color .5s ease;
     display: inline-block;
     text-align: center; }
     .b-order-link:hover {
